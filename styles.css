@@ -1,1 +1,30 @@
-/*  your css code here. If applicable */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+/* Video mein inputs ka basic black border hai */
+input {
+    width: 200px;
+    padding: 3px;
+    border: 1px solid black;
+    outline: none;
+}
+
+/* Jab input sahi ho -> lightgreen */
+input:valid {
+    background-color: lightgreen;
+}
+
+/* Jab input galat ho ya khali ho -> pink */
+input:invalid {
+    background-color: pink;
+}
+
+/* Submit button ki exact styling */
+.submit-btn {
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 4px 8px;
+    cursor: pointer;
+}
